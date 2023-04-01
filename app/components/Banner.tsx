@@ -8,7 +8,7 @@ export default function Banner() {
     return (
         <>
             <Box >
-                <RevealWrapper origin='left' delay={200} duration={3000} distance='500px' reset={true}>
+                <RevealWrapper origin='rear' delay={200} duration={3000} distance='500px' reset={true}>
                     <Container maxW={1400}>
                         <Flex pt={{ lg: '150px', base: '30px' }} pb={{ lg: '100px', base: '0' }} px={{ lg: '35px', base: '5px' }} display={{ lg: 'flex', base: 'grid' }}>
                             <Box flexBasis={{ lg: '50%', base: '%' }} px={{ lg: '50px', base: '0' }}>
@@ -49,7 +49,7 @@ export default function Banner() {
                         <Box flexBasis='50%' pl={{ lg: '60px', base: '5px' }} pt={{ lg: '80px', base: '30px' }}>
                                 <Heading size='2xl'>Enroll Now!</Heading>
                                 <Text pr={{ lg: '50px', base: "25px" }} pt='10px'>This program is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each.</Text>
-                                <Button mt='10px' size='lg' colorScheme='blue'>Enroll</Button>
+                                <Button mt='15px' size='lg' colorScheme='blue'>Enroll</Button>
                         </Box>
                         <Box flexBasis='50%'>
                                 <Image src='/logo2.webp' alt="Panaverse" width={{ lg: '700', base: '100' }} height={{ lg: '400', base: '200' }} />

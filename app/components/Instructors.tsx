@@ -15,7 +15,7 @@ export default function Instructors() {
                         {data.map((ins) => (
                             <Box key={ins.id}>
                                 <Center >
-                                    <Image borderRadius='full' width={90} height={90} src={ins.src} />
+                                    <Image borderRadius='full' width={90} height={90} src={ins.src} alt={'panaverse'} />
                                 </Center>
                                 <Heading textAlign='center' size='md'>{ins.heading}</Heading>
                                 <Text px='30px' fontSize='sm' textAlign='center' mb={'5'}>{ins.text}</Text>

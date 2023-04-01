@@ -1,7 +1,6 @@
 'use client'
 import Banner from "./components/Banner";
-// import Footer from "./components/Footer";
-// import Header from "./components/Header";
+import Tracks from "./components/Tracks";
 
 
 export default function Home() {
@@ -9,6 +8,7 @@ export default function Home() {
     <>
       {/* <Header /> */}
       <Banner />
+      <Tracks/>
       {/* <Footer /> */}
     </>
   )

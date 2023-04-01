@@ -10,7 +10,7 @@ export default function page() {
         <Box pt='30px' bgColor={'blue.100'}>
         <Container maxW={1500}>
           <Center flexDir='column'>
-            <Heading size='2xl' mb={'8'} color='blue.700'>Course Syllabus</Heading>
+          <div className='text-5xl font-bold text-black-900'>Course Syllabus</div>
             <Text mt='20px' textAlign='center' px='130px' fontWeight={'medium'}>The first three quarters are shared by all specialties and are dedicated to studying Object-Oriented Programming and cutting-edge Full-Stack Web 2.0 development. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each</Text>
           </Center>
           <Center flexDir='column' mt='20px'>

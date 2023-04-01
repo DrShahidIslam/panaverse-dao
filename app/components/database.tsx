@@ -1,3 +1,4 @@
+import Image from "next/image"
 export const data = [
     {
         id: 1,
@@ -87,16 +88,18 @@ export const core = [
     {
         id:1,
         heading:'Quarter I',
-        text:'CS-101: Object-Oriented Programming using TypeScript and Typescript for React'
+        text:'CS-101: Object-Oriented Programming using TypeScript and Typescript for React',
     },
     {
         id:2,
         heading:'Quarter II',
-        text:'W2-201: Developing Planet-Scale Web 2.0 Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform'
+        text:'W2-201: Developing Planet-Scale Web 2.0 Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform',
+        
     },
     {
         id:3,
         heading:'Quarter III',
-        text:'$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development'
+        text:'$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development',
+        
     },
 ]
