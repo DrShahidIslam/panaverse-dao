@@ -78,17 +78,17 @@ const Tracks =() =>{
 
     return(
         <section className="max-w-screen-xl mx-auto my-auto">
-            <h2 className="text-5xl font-bold mt-4 sticky">
+            <h2 className="text-3xl sm:text-5xl font-bold mt-4 ml-5 sticky">
                Specialised Tracks 
             </h2>
-            <div className="mt-10 flex gap-x-6 gap-y-8 mb-10">
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-x-6 gap-y-8 mb-10">
                 <div className="shadow-2xl rounded-xl border-blue-600 py-8 px-8 h-screen">
                     <div className="max-w-screen-md sticky top-0 self-start">
 
                 
                 <h4 className="font-bold text-xl my-3">{selectedItemData?.heading1}</h4>
                 <p className="text-slate-700">{selectedItemData?.text1}</p>
-                <div className='flex gap-6'>
+                <div className='flex flex-col md:flex-row gap-6'>
                     <div className='basis-1/2 mt-16'>
                         <h3 className='font-bold text-sm'>{selectedItemData?.heading2}</h3>
                         <p>{selectedItemData?.text2}</p>
